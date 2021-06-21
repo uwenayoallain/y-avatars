@@ -1,6 +1,6 @@
 # y-avatars
 
-> Made with create-react-library
+> a small package for custom svg-based placeholder avatars
 
 [![NPM](https://img.shields.io/npm/v/y-avatars.svg)](https://www.npmjs.com/package/y-avatars) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 

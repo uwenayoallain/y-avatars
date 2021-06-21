@@ -15,12 +15,15 @@ npm install --save y-avatars
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'y-avatars'
-import 'y-avatars/dist/index.css'
+import Avatar from 'y-avatars'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Avatar  variant = 'pixel'//varients[  'pixel','frame','ring','smilly','sunset','marble','triangle','patterns','classic'],
+  colors = {['#92A1C6', '#146A7C', '#F0AB3D', '#C271B4', '#C20D90']}//colors to use
+  name = {'Example Name'}//name used to generate random avatars
+  size = {40}//the size of the avatar
+  radius = {100}//radius />
   }
 }
 ```

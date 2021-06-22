@@ -2,7 +2,7 @@ node_modules
 example
 build
 dist
-.idea
+.idea/
 .rpt2_cache
 .DS_Store
 .env

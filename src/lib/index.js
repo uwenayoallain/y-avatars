@@ -1,3 +1,3 @@
 /* eslint-disable prettier/prettier */
-import Yavatar from './components/avatar'
-export default Yavatar
+import Avatar from './components/avatar'
+export default Avatar

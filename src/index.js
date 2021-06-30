@@ -1,6 +1,4 @@
 import React from 'react'
-import Yavatar from './lib'
+import Avatar from './lib'
 
-export const Avatar = (props) => {
-  return <Yavatar {...props} />
-}
+export default Avatar;

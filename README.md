@@ -15,7 +15,7 @@ npm install --save y-avatars
 ```jsx
 import React, { Component } from 'react'
 
-import Avatar from 'y-avatars'
+import { Avatar } from 'y-avatars'
 
 class Example extends Component {
   render() {

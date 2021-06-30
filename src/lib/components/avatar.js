@@ -25,7 +25,7 @@ const variants = [
 ]
 const deprecatedVariants = { geometric: 'smilly', abstract: 'frame' }
 
-const Yavatar = ({
+const Avatar = ({
   variant = 'pixel',
   colors = ['#92A1C6', '#146A7C', '#F0AB3D', '#C271B4', '#C20D90'],
   name = 'Clara Barton',
@@ -57,8 +57,8 @@ const Yavatar = ({
   return avatars[checkedVariant()]
 }
 
-Yavatar.propTypes = {
+Avatar.propTypes = {
   variant: PropTypes.oneOf(variants)
 }
 
-export default Yavatar
+export default Avatar
